@@ -1,7 +1,7 @@
 package automation.todoist;
 
+import automation.control.TextBox;
 import org.openqa.selenium.By;
-import practice2.control.TextBox;
 
 public class ChangePasswordSection {
     public TextBox actualPass = new TextBox(By.xpath("//input[@type=\"password\"]"));

@@ -1,8 +1,9 @@
 package automation.control;
 
+import automation.session.Session;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import practice2.session.Session;
+
 
 public class Control {
     protected By locator;

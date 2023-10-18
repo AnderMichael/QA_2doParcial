@@ -1,8 +1,8 @@
 package automation.todoist;
 
+import automation.control.Button;
+import automation.control.TextBox;
 import org.openqa.selenium.By;
-import practice2.control.Button;
-import practice2.control.TextBox;
 
 public class TaskCard {
     public TextBox taskName = new TextBox(By.xpath("//p[@data-placeholder=\"Task name\"]"));

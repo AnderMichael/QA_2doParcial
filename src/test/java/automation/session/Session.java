@@ -1,7 +1,7 @@
 package automation.session;
 
+import automation.factoryBrowsers.FactoryBrowser;
 import org.openqa.selenium.WebDriver;
-import practice2.factoryBrowsers.FactoryBrowser;
 
 import java.time.Duration;
 

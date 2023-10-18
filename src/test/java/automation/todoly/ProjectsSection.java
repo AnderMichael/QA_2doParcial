@@ -1,10 +1,10 @@
 package automation.todoly;
 
+import automation.control.Button;
+import automation.control.Project;
+import automation.control.Projects;
+import automation.control.TextBox;
 import org.openqa.selenium.By;
-import practice2.control.Button;
-import practice2.control.Project;
-import practice2.control.Projects;
-import practice2.control.TextBox;
 
 import java.util.List;
 

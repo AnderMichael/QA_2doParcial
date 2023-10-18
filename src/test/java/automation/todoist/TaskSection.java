@@ -1,7 +1,7 @@
 package automation.todoist;
 
+import automation.control.Task;
 import org.openqa.selenium.By;
-import practice2.control.Task;
 
 public class TaskSection {
     public Task task;

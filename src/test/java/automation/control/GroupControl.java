@@ -1,7 +1,7 @@
 package automation.control;
 
+import automation.session.Session;
 import org.openqa.selenium.By;
-import practice2.session.Session;
 
 import java.util.ArrayList;
 import java.util.List;

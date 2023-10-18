@@ -1,8 +1,8 @@
 package automation.todoly;
 
+import automation.control.Button;
+import automation.control.TextBox;
 import org.openqa.selenium.By;
-import practice2.control.Button;
-import practice2.control.TextBox;
 
 public class LoginSection {
     // Define the elements we use in different sections
