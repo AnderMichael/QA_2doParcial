@@ -30,14 +30,14 @@ public class AddTaskTest {
         menuSection.addTask.click();
         Thread.sleep(2000);
         taskCard.taskName.click();
-        taskCard.taskName.setText("Tarea 1");
+        taskCard.taskName.setText("Tarea 2");
         Thread.sleep(2000);
         taskCard.button.click();
         Thread.sleep(1000);
 
         menuSection.inbox.click();
 
-        Assertions.assertTrue(taskSection.taskExists("Tarea 1"), "ERROR la tarea no existe!");
+        Assertions.assertTrue(taskSection.taskExists("Tarea 2"), "ERROR la tarea no existe!");
     }
 
     public void login() {
